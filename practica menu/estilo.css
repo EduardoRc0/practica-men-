@@ -1,0 +1,77 @@
+.titulo {
+    color: red;
+    border-style: double ; color: yellow;  
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0;
+   
+}
+nav{
+    max-width: 1000px;
+    margin: auto;
+    background-color: black;
+    font-size: auto;
+    margin-top: auto;
+}
+.opcciones {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.opcciones1{
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+.opcciones li:hover .opcciones1{
+    display: block;
+}
+  
+
+.opcciones2 {
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+.opcciones li:hover .opcciones2{
+display: block;
+}
+
+
+
+.opcciones3 {
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+.opcciones li:hover .opcciones3{
+display: block;
+}
+ 
+
+.opcciones4 {
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+.opcciones li:hover .opcciones4{
+display: block;
+}
+ 
+
+
+.menu {
+    color: yellow;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+.opcciones{
+ color : rgb(0, 255, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: yellow;
+}
+.tipo1 {
+    color: yellow;
+}
